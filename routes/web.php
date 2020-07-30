@@ -23,3 +23,6 @@ Route::get('/', 'SiteController@index');
 Route::get('/articles', 'SiteController@articles');
 
 Route::get('/contact', 'SiteController@contact');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
