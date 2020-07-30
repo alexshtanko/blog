@@ -27,7 +27,7 @@ Route::get('/contact', 'SiteController@contact');
 Auth::routes();
 
 Route::get('/admin', function () {
-        return view('admin');
+        return view('admin.index');
 });
 
 Route::get('/logout', function () {

@@ -2,6 +2,6 @@
 
 @section('content')
 
-    Admin Panel
+    Admin Panel New
 
 @endsection
