@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class SiteController extends Controller
 {
@@ -21,4 +22,5 @@ class SiteController extends Controller
     {
         return view( 'contact' );
     }
+
 }
